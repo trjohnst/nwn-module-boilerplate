@@ -1,0 +1,47 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 74}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 1}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value: {}
+Description:
+  type: cexolocstr
+  value:
+    0: |-
+      For some reason most of the diary's entries haven't been written in Espruar - the elven tongue - but in common language, though it appears that almost all entries are written using some kind of code. Only the most recent entries aren't encrypted.
+
+      "I had to dispose of my former student, Fel'het La'aner - she was becoming to curious about my researches. Besides that she wasn't able to assist me properly, being more a burden then a helping hand.
+
+      The kobolds haven't proven to be of any use either. I commanded them to only take those items out of the crypt that appeared to be magical or - so they could understand it - unusual. But instead those pathetic worms took along almost everything their greedy fingers could get hold of. By now they must have not left traces within the crypts but they most certainly also drew the human's attention.
+
+      Anyway, my work here is almost done. And then these annoying little kobolds are going to be wiped out."
+Identified: {type: byte, value: 0}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Diary
+ModelPart1: {type: byte, value: 5}
+PaletteID: {type: byte, value: 54}
+Plot: {type: byte, value: 1}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 0}
+    CostValue: {type: word, value: 0}
+    Param1: {type: byte, value: 11}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 81}
+    Subtype: {type: word, value: 0}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: Drow_Diary}
+TemplateResRef: {type: resref, value: tornbook001}

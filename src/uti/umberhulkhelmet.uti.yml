@@ -1,0 +1,49 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 17}
+Charges: {type: byte, value: 0}
+Cloth1Color: {type: byte, value: 45}
+Cloth2Color: {type: byte, value: 45}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 6753}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: Unlike the umberhulk, this helm doesn't confuse it's enemy by a gaze-like attack.
+      Instead it is imbued with certain magics that allow the wearer of this helmet
+      to cast the according spell once a day.
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 0}
+Leather1Color: {type: byte, value: 45}
+Leather2Color: {type: byte, value: 45}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Umberhulk Helmet
+Metal1Color: {type: byte, value: 31}
+Metal2Color: {type: byte, value: 27}
+ModelPart1: {type: byte, value: 27}
+PaletteID: {type: byte, value: 9}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 3}
+    CostValue: {type: word, value: 8}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 15}
+    Subtype: {type: word, value: 52}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: UmberhulkHelmet}
+TemplateResRef: {type: resref, value: umberhulkhelmet}

@@ -1,0 +1,108 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 1}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: unique}
+Cost: {type: dword, value: 125570}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: This blade was crafted by elven mastersmiths, and imbued with very powerful
+      arcane magic. Due to this special nature, only those familiar with controling
+      arcane energies may wield this sword.
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 0}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Elven Mage Blade
+ModelPart1: {type: byte, value: 72}
+ModelPart2: {type: byte, value: 62}
+ModelPart3: {type: byte, value: 62}
+PaletteID: {type: byte, value: 36}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 3}
+    CostValue: {type: word, value: 10}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 15}
+    Subtype: {type: word, value: 172}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 4}
+    CostValue: {type: word, value: 3}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 16}
+    Subtype: {type: word, value: 5}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 2}
+    CostValue: {type: word, value: 3}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 6}
+    Subtype: {type: word, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 18}
+    CostValue: {type: word, value: 2}
+    Param1: {type: byte, value: 9}
+    Param1Value: {type: byte, value: 2}
+    PropertyName: {type: word, value: 44}
+    Subtype: {type: word, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 26}
+    CostValue: {type: word, value: 2}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 82}
+    Subtype: {type: word, value: 42}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 11}
+    CostValue: {type: word, value: 2}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 39}
+    Subtype: {type: word, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 0}
+    CostValue: {type: word, value: 0}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 63}
+    Subtype: {type: word, value: 9}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 0}
+    CostValue: {type: word, value: 0}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 63}
+    Subtype: {type: word, value: 10}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: ElvenMageBlade}
+TemplateResRef: {type: resref, value: elvenmageblade}

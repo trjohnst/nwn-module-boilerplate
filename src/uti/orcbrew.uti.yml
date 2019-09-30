@@ -1,0 +1,45 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 3}
+BaseItem: {type: int, value: 49}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 3}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: The name may sound a bit confusing, since the Orc Brew is of dwarven origin.
+      Why they called it Orc Brew can't be told anymore, but maybe the blood-red color
+      of the liquor has something to do with it...
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 0}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Orc Brew
+ModelPart1: {type: byte, value: 13}
+ModelPart2: {type: byte, value: 22}
+ModelPart3: {type: byte, value: 12}
+PaletteID: {type: byte, value: 24}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 3}
+    CostValue: {type: word, value: 1}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 15}
+    Subtype: {type: word, value: 332}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: OrcBrew}
+TemplateResRef: {type: resref, value: orcbrew}

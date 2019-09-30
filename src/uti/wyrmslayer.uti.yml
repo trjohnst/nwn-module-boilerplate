@@ -1,0 +1,102 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 3}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 92278}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: |-
+      Often refered to as the "big sister" of Wyrmsbane, the Wyrmslayer blade was crafted for one sole purpose: to fight the most powerful and vicious evil dragons. Protective enchantments prevent anyone of evil alignment from wielding Wyrmslayer, so the enourmes power of this sword can not be turned against good dragons, who played a considerable role in creating this blade.
+
+      Even when not fighting evil dragons, Wyrmslayer is far superior to its sister sword Wyrmsbane, warding its wielder from magical fear. When opposing a dragon, Wyrmslayer reveals its extremely powerful enchantmens and the massive amount of damage it can inflict.
+
+      Wyrmslayer by far is the most powerful weapon one can wield when fighting dragons, and its powers should be used carefully.
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 0}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Wyrmslayer
+ModelPart1: {type: byte, value: 62}
+ModelPart2: {type: byte, value: 32}
+ModelPart3: {type: byte, value: 52}
+PaletteID: {type: byte, value: 33}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 2}
+    CostValue: {type: word, value: 3}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 56}
+    Subtype: {type: word, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 4}
+    CostValue: {type: word, value: 13}
+    Param1: {type: byte, value: 0}
+    Param1Value: {type: byte, value: 1}
+    PropertyName: {type: word, value: 18}
+    Subtype: {type: word, value: 11}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 4}
+    CostValue: {type: word, value: 13}
+    Param1: {type: byte, value: 0}
+    Param1Value: {type: byte, value: 2}
+    PropertyName: {type: word, value: 18}
+    Subtype: {type: word, value: 11}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 2}
+    CostValue: {type: word, value: 5}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 8}
+    Subtype: {type: word, value: 11}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 0}
+    CostValue: {type: word, value: 0}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 37}
+    Subtype: {type: word, value: 5}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 0}
+    CostValue: {type: word, value: 0}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 62}
+    Subtype: {type: word, value: 4}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 0}
+    CostValue: {type: word, value: 0}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 62}
+    Subtype: {type: word, value: 1}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: Wyrmslayer}
+TemplateResRef: {type: resref, value: wyrmslayer}

@@ -1,0 +1,144 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTE
+__struct_id: 4294967295
+Active: {type: byte, value: 1}
+Comment: {type: cexostr, value: ''}
+CreatureList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 127}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_ogre01}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 207}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_ogre02}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 129}
+    CR: {type: float, value: 5.0}
+    ResRef: {type: resref, value: nw_ogremage01}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 209}
+    CR: {type: float, value: 5.0}
+    ResRef: {type: resref, value: nw_ogremage02}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 167}
+    CR: {type: float, value: 5.0}
+    ResRef: {type: resref, value: nw_troll}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 128}
+    CR: {type: float, value: 6.0}
+    ResRef: {type: resref, value: nw_ogrechief01}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 208}
+    CR: {type: float, value: 6.0}
+    ResRef: {type: resref, value: nw_ogrechief02}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 164}
+    CR: {type: float, value: 7.0}
+    ResRef: {type: resref, value: nw_trollchief}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 165}
+    CR: {type: float, value: 7.0}
+    ResRef: {type: resref, value: nw_trollwiz}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 72}
+    CR: {type: float, value: 8.0}
+    ResRef: {type: resref, value: nw_ettin}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 350}
+    CR: {type: float, value: 9.0}
+    ResRef: {type: resref, value: x0_gntfrostfem}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 208}
+    CR: {type: float, value: 9.0}
+    ResRef: {type: resref, value: nw_ogreboss}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 165}
+    CR: {type: float, value: 9.0}
+    ResRef: {type: resref, value: nw_trollboss}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 351}
+    CR: {type: float, value: 10.0}
+    ResRef: {type: resref, value: x0_gntfirefem}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 81}
+    CR: {type: float, value: 10.0}
+    ResRef: {type: resref, value: nw_gntfrost}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 78}
+    CR: {type: float, value: 10.0}
+    ResRef: {type: resref, value: nw_gnthill}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 79}
+    CR: {type: float, value: 10.0}
+    ResRef: {type: resref, value: nw_gntmount}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 80}
+    CR: {type: float, value: 12.0}
+    ResRef: {type: resref, value: nw_gntfire}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 209}
+    CR: {type: float, value: 18.0}
+    ResRef: {type: resref, value: nw_ogremageboss}
+    SingleSpawn: {type: byte, value: 0}
+Difficulty: {type: int, value: 2}
+DifficultyIndex: {type: int, value: 2}
+Faction: {type: dword, value: 1}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Giants
+MaxCreatures: {type: int, value: 8}
+OnEntered: {type: resref, value: ''}
+OnExhausted: {type: resref, value: ''}
+OnExit: {type: resref, value: ''}
+OnHeartbeat: {type: resref, value: ''}
+OnUserDefined: {type: resref, value: ''}
+PaletteID: {type: byte, value: 7}
+PlayerOnly: {type: byte, value: 1}
+RecCreatures: {type: int, value: 1}
+Reset: {type: byte, value: 1}
+ResetTime: {type: int, value: 120}
+Respawns: {type: int, value: -1}
+SpawnOption: {type: int, value: 0}
+Tag: {type: cexostr, value: Giants}
+TemplateResRef: {type: resref, value: giants}

@@ -1,0 +1,73 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 52}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 62438}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: "During the formation of the Circle of Ice resistance movement against the\n
+      wizards of the Hosttower of the Arcane, many special rings were forged for the
+      \nwizard slayers of the organization to help them fend off the magical powers
+      of\n their opponents. \n\nThe organization and the forging of the rings was
+      sponsored by a merchant from\n Waterdeep, whose name has been burned from the
+      annals of history by the \nHosttower. Apparently, after being forced to debase
+      himself before the \nHosttower during a trading agreement in Luskan (and being
+      forced to surrender \nmuch of his cargo), the merchant became obsessed with
+      wiping the Hosttower from the face of Faerun. Commissioning wizards in Waterdeep
+      to fashion a score of rings for him, he set about using the last of his remaining
+      wealth to hire a band of wizard slayers to bring about the downfall of the Hosttower.
+      Those twenty wizard slayers made arrangements to travel north on their own,
+      and rendezvous with the merchant in Luskan.\n\n There was one wizard slayer
+      named Martek, however, who refused the rings \noffered by the merchant, and
+      knowing the danger and guile of the Hosttower, \ninstead commissioned a special
+      ring from a dwarven ally that would provide him additional wards against spells
+      and charms. Once the other members of the \nCircle of Ice began to be murdered
+      in Luskan after the Hosttower learned their \nidentities, Martek used the power
+      of his enhanced ring to shield himself from\n the scrying of the Hosttower wizards
+      and escape southwards. He eventually \nreturned the ring to his dwarven ally,
+      who sold it to a merchant making his way for Bryn Shander.\n\n This Cold Steel
+      Reflection ring differs from the other Circle of Ice rings in \nthat it seems
+      to have a ring of steel beneath the icy exterior of the ring - \nmuch like Martek
+      himself."
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 0}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Cold Steel Reflection Ring
+ModelPart1: {type: byte, value: 11}
+PaletteID: {type: byte, value: 22}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 3}
+    CostValue: {type: word, value: 8}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 15}
+    Subtype: {type: word, value: 257}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 11}
+    CostValue: {type: word, value: 3}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 39}
+    Subtype: {type: word, value: 0}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: ColdSteelReflectionRing}
+TemplateResRef: {type: resref, value: coldsteelreflect}

@@ -1,0 +1,106 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+ArmorPart_Belt: {type: byte, value: 15}
+ArmorPart_LBicep: {type: byte, value: 6}
+ArmorPart_LFArm: {type: byte, value: 6}
+ArmorPart_LFoot: {type: byte, value: 9}
+ArmorPart_LHand: {type: byte, value: 1}
+ArmorPart_LShin: {type: byte, value: 16}
+ArmorPart_LShoul: {type: byte, value: 3}
+ArmorPart_LThigh: {type: byte, value: 5}
+ArmorPart_Neck: {type: byte, value: 5}
+ArmorPart_Pelvis: {type: byte, value: 4}
+ArmorPart_RBicep: {type: byte, value: 6}
+ArmorPart_RFArm: {type: byte, value: 5}
+ArmorPart_RFoot: {type: byte, value: 9}
+ArmorPart_RHand: {type: byte, value: 1}
+ArmorPart_RShin: {type: byte, value: 16}
+ArmorPart_RShoul: {type: byte, value: 3}
+ArmorPart_RThigh: {type: byte, value: 5}
+ArmorPart_Robe: {type: byte, value: 0}
+ArmorPart_Torso: {type: byte, value: 3}
+BaseItem: {type: int, value: 16}
+Charges: {type: byte, value: 0}
+Cloth1Color: {type: byte, value: 18}
+Cloth2Color: {type: byte, value: 20}
+Comment: {type: cexostr, value: '1'}
+Cost: {type: dword, value: 42641}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  str_ref: 13857
+  value:
+    0: These fine mesh suits feel more like cloth than armor, yet many a killing blow
+      has been turned aside by their links. Aslyferund, the most famous armorer of
+      once-proud Myth Drannor, crafted many of these masterpieces personally, and
+      it is rumored that the more powerful versions were created with the aid of a
+      gold dragon.
+Description:
+  type: cexolocstr
+  value: {}
+Identified: {type: byte, value: 0}
+Leather1Color: {type: byte, value: 3}
+Leather2Color: {type: byte, value: 8}
+LocalizedName:
+  type: cexolocstr
+  str_ref: 13856
+  value:
+    0: Elven Chainmail
+Metal1Color: {type: byte, value: 56}
+Metal2Color: {type: byte, value: 47}
+PaletteID: {type: byte, value: 5}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 2}
+    CostValue: {type: word, value: 3}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 1}
+    Subtype: {type: word, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 6}
+    CostValue: {type: word, value: 1}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 22}
+    Subtype: {type: word, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 25}
+    CostValue: {type: word, value: 3}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 52}
+    Subtype: {type: word, value: 1}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 25}
+    CostValue: {type: word, value: 3}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 52}
+    Subtype: {type: word, value: 3}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 11}
+    CostValue: {type: word, value: 0}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 39}
+    Subtype: {type: word, value: 0}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: ElvenChainmail}
+TemplateResRef: {type: resref, value: elvenchainmail}

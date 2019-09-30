@@ -1,0 +1,354 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTE
+__struct_id: 4294967295
+Active: {type: byte, value: 1}
+Comment: {type: cexostr, value: ''}
+CreatureList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 86}
+    CR: {type: float, value: 0.25}
+    ResRef: {type: resref, value: nw_goblina}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 87}
+    CR: {type: float, value: 0.25}
+    ResRef: {type: resref, value: nw_goblinb}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 140}
+    CR: {type: float, value: 0.25}
+    ResRef: {type: resref, value: nw_orca}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 141}
+    CR: {type: float, value: 0.25}
+    ResRef: {type: resref, value: nw_orcb}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 390}
+    CR: {type: float, value: 0.3333}
+    ResRef: {type: resref, value: nw_hobgoblin001}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 302}
+    CR: {type: float, value: 0.3333}
+    ResRef: {type: resref, value: nw_kobold001}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 305}
+    CR: {type: float, value: 0.3333}
+    ResRef: {type: resref, value: nw_kobold002}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 388}
+    CR: {type: float, value: 1.0}
+    ResRef: {type: resref, value: nw_gnoll001}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 355}
+    CR: {type: float, value: 2.0}
+    ResRef: {type: resref, value: x0_asabi_warrior}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 29}
+    CR: {type: float, value: 2.0}
+    ResRef: {type: resref, value: nw_bugbeara}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 30}
+    CR: {type: float, value: 2.0}
+    ResRef: {type: resref, value: nw_bugbearb}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 55}
+    CR: {type: float, value: 2.0}
+    ResRef: {type: resref, value: nw_grig}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 391}
+    CR: {type: float, value: 2.0}
+    ResRef: {type: resref, value: nw_hobgoblin002}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 303}
+    CR: {type: float, value: 2.0}
+    ResRef: {type: resref, value: nw_kobold004}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 304}
+    CR: {type: float, value: 2.0}
+    ResRef: {type: resref, value: nw_kobold006}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 301}
+    CR: {type: float, value: 2.0}
+    ResRef: {type: resref, value: nw_kobold005}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 300}
+    CR: {type: float, value: 2.0}
+    ResRef: {type: resref, value: nw_kobold003}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 135}
+    CR: {type: float, value: 2.0}
+    ResRef: {type: resref, value: nw_oldwarb}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 134}
+    CR: {type: float, value: 2.0}
+    ResRef: {type: resref, value: nw_oldwarra}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 389}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_gnoll002}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 83}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_gobchiefb}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 84}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_gobwiza}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 85}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_gobwizb}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 136}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_orcchiefa}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 137}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_orcchiefb}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 356}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: x0_stinger}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 27}
+    CR: {type: float, value: 4.0}
+    ResRef: {type: resref, value: nw_bugwiza}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 28}
+    CR: {type: float, value: 4.0}
+    ResRef: {type: resref, value: nw_bugwizb}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 82}
+    CR: {type: float, value: 4.0}
+    ResRef: {type: resref, value: nw_gobchiefa}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 130}
+    CR: {type: float, value: 4.0}
+    ResRef: {type: resref, value: nw_oldchiefa}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 131}
+    CR: {type: float, value: 4.0}
+    ResRef: {type: resref, value: nw_oldchiefb}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 132}
+    CR: {type: float, value: 4.0}
+    ResRef: {type: resref, value: nw_oldmagea}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 133}
+    CR: {type: float, value: 4.0}
+    ResRef: {type: resref, value: nw_oldmageb}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 120}
+    CR: {type: float, value: 4.0}
+    ResRef: {type: resref, value: nw_minotaur}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 138}
+    CR: {type: float, value: 4.0}
+    ResRef: {type: resref, value: nw_orcwiza}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 139}
+    CR: {type: float, value: 4.0}
+    ResRef: {type: resref, value: nw_orcwizb}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 454}
+    CR: {type: float, value: 4.0}
+    ResRef: {type: resref, value: nw_seahag}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 354}
+    CR: {type: float, value: 5.0}
+    ResRef: {type: resref, value: x0_asabi_shaman}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 25}
+    CR: {type: float, value: 5.0}
+    ResRef: {type: resref, value: nw_bugchiefa}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 26}
+    CR: {type: float, value: 5.0}
+    ResRef: {type: resref, value: nw_bugchiefb}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 359}
+    CR: {type: float, value: 5.0}
+    ResRef: {type: resref, value: x0_stinger_mage}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 357}
+    CR: {type: float, value: 5.0}
+    ResRef: {type: resref, value: x0_stinger_war}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 285}
+    CR: {type: float, value: 5.0}
+    ResRef: {type: resref, value: nw_yuan_ti001}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 286}
+    CR: {type: float, value: 5.0}
+    ResRef: {type: resref, value: nw_yuan_ti002}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 353}
+    CR: {type: float, value: 6.0}
+    ResRef: {type: resref, value: x0_asabi_chief}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 352}
+    CR: {type: float, value: 6.0}
+    ResRef: {type: resref, value: x0_medusa}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 287}
+    CR: {type: float, value: 6.0}
+    ResRef: {type: resref, value: nw_yuan_ti003}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 358}
+    CR: {type: float, value: 7.0}
+    ResRef: {type: resref, value: x0_stinger_chief}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 121}
+    CR: {type: float, value: 8.0}
+    ResRef: {type: resref, value: nw_minchief}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 122}
+    CR: {type: float, value: 9.0}
+    ResRef: {type: resref, value: nw_minwiz}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 25}
+    CR: {type: float, value: 10.0}
+    ResRef: {type: resref, value: nw_bugbearboss}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 137}
+    CR: {type: float, value: 10.0}
+    ResRef: {type: resref, value: nw_orcboss}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 83}
+    CR: {type: float, value: 11.0}
+    ResRef: {type: resref, value: nw_goblinboss}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 122}
+    CR: {type: float, value: 13.0}
+    ResRef: {type: resref, value: nw_minotaurboss}
+    SingleSpawn: {type: byte, value: 0}
+Difficulty: {type: int, value: 2}
+DifficultyIndex: {type: int, value: 2}
+Faction: {type: dword, value: 1}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Humanoid
+MaxCreatures: {type: int, value: 8}
+OnEntered: {type: resref, value: ''}
+OnExhausted: {type: resref, value: ''}
+OnExit: {type: resref, value: ''}
+OnHeartbeat: {type: resref, value: ''}
+OnUserDefined: {type: resref, value: ''}
+PaletteID: {type: byte, value: 7}
+PlayerOnly: {type: byte, value: 1}
+RecCreatures: {type: int, value: 1}
+Reset: {type: byte, value: 1}
+ResetTime: {type: int, value: 120}
+Respawns: {type: int, value: -1}
+SpawnOption: {type: int, value: 0}
+Tag: {type: cexostr, value: Humanoid}
+TemplateResRef: {type: resref, value: humanoid}

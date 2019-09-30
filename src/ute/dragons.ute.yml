@@ -1,0 +1,174 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTE
+__struct_id: 4294967295
+Active: {type: byte, value: 1}
+Comment: {type: cexostr, value: ''}
+CreatureList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 378}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: x0_wyrmling_blk}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 380}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: x0_wyrmling_wht}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 379}
+    CR: {type: float, value: 4.0}
+    ResRef: {type: resref, value: x0_wyrmling_grn}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 377}
+    CR: {type: float, value: 5.0}
+    ResRef: {type: resref, value: x0_wyrmling_blu}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 376}
+    CR: {type: float, value: 5.0}
+    ResRef: {type: resref, value: x0_wyrmling_red}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 1}
+    CR: {type: float, value: 8.0}
+    ResRef: {type: resref, value: nw_halfdra002}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 6}
+    CR: {type: float, value: 9.0}
+    ResRef: {type: resref, value: nw_halfdra001}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 50}
+    CR: {type: float, value: 12.0}
+    ResRef: {type: resref, value: nw_drgwhite001}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 41}
+    CR: {type: float, value: 13.0}
+    ResRef: {type: resref, value: nw_drgblack001}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 47}
+    CR: {type: float, value: 14.0}
+    ResRef: {type: resref, value: nw_drgblue001}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 48}
+    CR: {type: float, value: 14.0}
+    ResRef: {type: resref, value: nw_drggreen001}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 49}
+    CR: {type: float, value: 15.0}
+    ResRef: {type: resref, value: nw_drgred001}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 50}
+    CR: {type: float, value: 16.0}
+    ResRef: {type: resref, value: nw_drgwhite002}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 41}
+    CR: {type: float, value: 17.0}
+    ResRef: {type: resref, value: nw_drgblack002}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 47}
+    CR: {type: float, value: 18.0}
+    ResRef: {type: resref, value: nw_drgblue002}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 48}
+    CR: {type: float, value: 18.0}
+    ResRef: {type: resref, value: nw_drggreen002}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 49}
+    CR: {type: float, value: 19.0}
+    ResRef: {type: resref, value: nw_drgred002}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 50}
+    CR: {type: float, value: 20.0}
+    ResRef: {type: resref, value: nw_drgwhite003}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 41}
+    CR: {type: float, value: 21.0}
+    ResRef: {type: resref, value: nw_drgblack003}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 48}
+    CR: {type: float, value: 22.0}
+    ResRef: {type: resref, value: nw_drggreen003}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 418}
+    CR: {type: float, value: 22.0}
+    ResRef: {type: resref, value: x2_dragonshad001}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 47}
+    CR: {type: float, value: 23.0}
+    ResRef: {type: resref, value: nw_drgblue003}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 49}
+    CR: {type: float, value: 24.0}
+    ResRef: {type: resref, value: nw_drgred003}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 425}
+    CR: {type: float, value: 37.0}
+    ResRef: {type: resref, value: x2_dragonpris001}
+    SingleSpawn: {type: byte, value: 0}
+Difficulty: {type: int, value: 2}
+DifficultyIndex: {type: int, value: 2}
+Faction: {type: dword, value: 1}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Dragons
+MaxCreatures: {type: int, value: 8}
+OnEntered: {type: resref, value: ''}
+OnExhausted: {type: resref, value: ''}
+OnExit: {type: resref, value: ''}
+OnHeartbeat: {type: resref, value: ''}
+OnUserDefined: {type: resref, value: ''}
+PaletteID: {type: byte, value: 7}
+PlayerOnly: {type: byte, value: 1}
+RecCreatures: {type: int, value: 1}
+Reset: {type: byte, value: 1}
+ResetTime: {type: int, value: 120}
+Respawns: {type: int, value: -1}
+SpawnOption: {type: int, value: 0}
+Tag: {type: cexostr, value: Dragons}
+TemplateResRef: {type: resref, value: dragons}

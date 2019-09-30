@@ -1,0 +1,71 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 52}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 8200}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: |-
+      Rokarn was a righteous and noble man, with a strong sense of duty and honor, and a brave heart. Still he failed in becoming a paladin, a goal he tried hard to achive. The reason for his failure was his hot temper in battle; almost mindlessly he would rush his opponents without wasting a single thought about strategy and tactics. But even though Rokarn was rejected as paladin, he still tried to follow this noble path as good as possible and was being welcomed as a Champion of Torm, a guardian of good.
+
+      After Rokarn had died of old age, the church of Torm created several rings to honor one of the bravest and most devoted Champions ever to serve his duty.
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 0}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Rokarn's Ring of Bravery
+ModelPart1: {type: byte, value: 20}
+PaletteID: {type: byte, value: 22}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 3}
+    CostValue: {type: word, value: 10}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 15}
+    Subtype: {type: word, value: 353}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 3}
+    CostValue: {type: word, value: 10}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 15}
+    Subtype: {type: word, value: 345}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 18}
+    CostValue: {type: word, value: 2}
+    Param1: {type: byte, value: 9}
+    Param1Value: {type: byte, value: 6}
+    PropertyName: {type: word, value: 44}
+    Subtype: {type: word, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 0}
+    CostValue: {type: word, value: 0}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 62}
+    Subtype: {type: word, value: 4}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: RokarnsRingofBravery}
+TemplateResRef: {type: resref, value: rokarnsringof}

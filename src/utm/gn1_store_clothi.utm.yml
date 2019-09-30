@@ -1,0 +1,1880 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTM
+__struct_id: 4294967295
+BM_MarkDown: {type: int, value: 1}
+BlackMarket: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+ID: {type: byte, value: 5}
+IdentifyPrice: {type: int, value: 100}
+LocName:
+  type: cexolocstr
+  value:
+    0: GN1_STORE_Clothing_Cloaks_Shields
+MarkDown: {type: int, value: 1}
+MarkUp: {type: int, value: 1}
+MaxBuyPrice: {type: int, value: -1}
+OnOpenStore: {type: resref, value: ''}
+OnStoreClosed: {type: resref, value: ''}
+ResRef: {type: resref, value: gn1_store_clothi}
+StoreGold: {type: int, value: -1}
+StoreList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ItemList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_ashmlw006}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 1
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmlw006}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 2
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_adrowshl001}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 3
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_adrowshl002}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 4
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_adrowshl003}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 0}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 5
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_iwoodshldl}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 3}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 6
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_ashmlw003}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 3}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 7
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashlw001}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 3}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 8
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmlw002}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 3}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 9
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmlw008}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 3}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 10
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmlw009}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 6}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 11
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_ashmlw001}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 6}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 12
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_ashmlw002}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 6}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 13
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_ashmlw003}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 6}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 14
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_ashmlw004}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 6}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 15
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmlw005}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 10}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 16
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_ashmlw005}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 10}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 17
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmlw003}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 10}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 18
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmlw004}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 10}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 19
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmlw007}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 10}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 20
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmsw005}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 13}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 21
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmsw004}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 13}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 22
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_ironwshlds}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 13}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 23
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmsw007}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 13}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 24
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmsw003}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 13}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 25
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmsw010}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 15}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 26
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmsw011}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 15}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 27
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmsw006}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 15}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 28
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_smchaosshield}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 15}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 29
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashsw001}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 15}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 30
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmsw002}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 17}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 31
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmsw008}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 17}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 32
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmsw009}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 17}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 33
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_ashmsw001}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 17}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 34
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_ashmsw002}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 17}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 35
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_ashmsw003}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 20}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 36
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_ashmsw004}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 20}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 37
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_ashmto005}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 20}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 38
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmto007}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 20}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 39
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmto005}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 20}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 40
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmto010}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 22}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 41
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmto011}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 22}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 42
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmto006}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 24}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 43
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmto003}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 24}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 44
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_ironwshldt}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 24}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 45
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmto004}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 26}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 46
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashto001}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 26}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 47
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmto002}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 30}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 48
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmto008}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 30}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 49
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_ashmto009}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 30}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 50
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_ashmto001}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 30}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 51
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_ashmto002}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 30}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 52
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_ashmto003}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 34}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 53
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_ashmto004}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 34}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 54
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt011}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 9}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 55
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt018}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 9}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 56
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mbelt008}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 9}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 57
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt019}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 9}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 58
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt020}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 9}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 59
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt021}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 19}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 60
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mbelt003}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 19}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 61
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mbelt004}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 19}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 62
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mbelt005}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 19}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 63
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mbelt006}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 19}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 64
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mbelt007}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 28}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 65
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mbelt001}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 28}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 66
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt008}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 28}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 67
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt007}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 29}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 68
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt016}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 29}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 69
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt002}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 29}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 70
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt006}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 34}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 71
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mbelt002}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 34}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 72
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mbelt002}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 34}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 73
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt010}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 35}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 74
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt003}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 35}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 75
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt004}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 35}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 76
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt001}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 36}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 77
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt014}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 36}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 78
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt017}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 36}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 79
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt013}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 37}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 80
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt012}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 37}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 81
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mbelt006}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 37}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 82
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mbelt004}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 38}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 83
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_belt_001}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 38}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 84
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt015}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 38}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 85
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mbelt001}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 38}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 86
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mbelt005}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 38}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 87
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mbelt007}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 39}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 88
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt005}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 39}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 89
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mbelt003}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 39}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 90
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mbelt008}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 39}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 91
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbelt009}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 39}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 92
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots002}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 40}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 93
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots015}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 40}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 94
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots016}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 40}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 95
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots017}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 40}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 96
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots010}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 40}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 97
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mboots005}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 42}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 98
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots011}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 42}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 99
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots012}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 42}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 100
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots013}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 42}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 101
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots014}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 42}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 102
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mboots001}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 44}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 103
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mboots002}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 44}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 104
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mboots003}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 44}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 105
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mboots004}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 44}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 106
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots005}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 44}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 107
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots001}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 46}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 108
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mboots010}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 46}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 109
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots006}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 46}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 110
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots007}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 46}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 111
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots008}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 46}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 112
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots009}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 48}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 113
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mboots006}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 48}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 114
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mboots007}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 48}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 115
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mboots008}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 48}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 116
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mboots009}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 48}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 117
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x1_it_mboots001}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 50}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 118
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots018}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 50}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 119
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots019}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 50}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 120
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots020}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 50}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 121
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots021}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 50}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 122
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots022}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 52}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 123
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mboots001}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 52}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 124
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mboots003}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 52}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 125
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots003}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 52}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 126
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mboots004}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 52}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 127
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mboots004}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 54}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 128
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mboots002}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 54}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 129
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_nash_boot}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 54}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 130
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mbracer001}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 54}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 131
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbracer002}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 54}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 132
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mbracer005}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 55}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 133
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbracer007}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 55}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 134
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbracer008}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 56}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 135
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbracer009}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 56}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 136
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbracer010}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 56}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 137
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mbracer001}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 56}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 138
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mbracer002}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 56}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 139
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mbracer003}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 57}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 140
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mbracer004}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 57}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 141
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbracer001}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 57}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 142
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mbracer010}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 57}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 143
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbracer003}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 57}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 144
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbracer004}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 58}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 145
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbracer005}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 58}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 146
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbracer006}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 58}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 147
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mbracer006}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 58}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 148
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mbracer007}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 58}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 149
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mbracer008}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 59}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 150
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mbracer009}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 59}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 151
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbracer011}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 59}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 152
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mbracer002}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 59}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 153
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_maarcl038}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 60}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 154
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_maarcl039}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 60}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 155
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_maarcl030}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 60}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 156
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_maarcl040}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 60}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 157
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_maarcl032}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 60}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 158
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl057}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 63}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 159
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mcloak002}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 63}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 160
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl104}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 63}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 161
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl105}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 63}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 162
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl106}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 63}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 163
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mcloak004}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 66}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 164
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mcloak005}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 66}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 165
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_maarcl033}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 66}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 166
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl056}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 66}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 167
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl055}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 66}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 168
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl088}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 70}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 169
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl089}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 70}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 170
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl090}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 70}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 171
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl091}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 70}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 172
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mcloak006}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 70}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 173
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mcloak007}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 73}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 174
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl098}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 73}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 175
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl097}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 73}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 176
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl096}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 73}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 177
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl099}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 73}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 178
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_maarcl025}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 76}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 179
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_maarcl026}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 76}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 180
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_maarcl027}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 76}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 181
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_maarcl028}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 76}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 182
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_maarcl029}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 76}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 183
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_maarcl031}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 80}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 184
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mcloak001}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 80}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 185
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl030}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 80}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 186
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_drowcl001}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 80}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 187
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl102}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 80}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 188
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl101}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 83}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 189
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl100}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 83}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 190
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl103}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 83}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 191
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_maarcl034}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 83}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 192
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mcloak003}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 83}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 193
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_nash_cloak}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 86}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 194
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl031}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 86}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 195
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl092}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 86}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 196
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl093}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 86}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 197
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl094}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 86}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 198
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_maarcl095}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 90}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 199
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mcloak008}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 90}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 200
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mcloak009}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 90}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 201
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x1_it_mcloak001}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 90}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 202
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_maarcl035}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 90}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 203
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove016}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 59}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 204
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove017}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 69}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 205
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove018}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 69}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 206
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove019}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 69}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 207
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove020}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 69}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 208
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove021}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 69}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 209
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_glove_bal}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 79}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 210
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x1_it_mglove001}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 79}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 211
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mglove005}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 79}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 212
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbracer013}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 79}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 213
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove006}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 79}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 214
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mglove001}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 89}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 215
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove004}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 89}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 216
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove008}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 89}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 217
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mglove006}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 89}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 218
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove007}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 89}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 219
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove009}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 93}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 220
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mglove003}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 93}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 221
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mglove007}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 93}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 222
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove016}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 93}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 223
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove005}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 93}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 224
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove017}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 94}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 225
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove018}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 94}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 226
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove019}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 94}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 227
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove020}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 94}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 228
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove001}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 94}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 229
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove002}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 95}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 230
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove003}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 95}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 231
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove004}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 95}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 232
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove021}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 95}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 233
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove010}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 95}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 234
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove022}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 96}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 235
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove023}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 96}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 236
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove024}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 96}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 237
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove025}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 96}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 238
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove006}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 96}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 239
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove007}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 97}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 240
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove008}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 97}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 241
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove009}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 97}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 242
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove005}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 97}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 243
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove003}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 97}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 244
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove026}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 98}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 245
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove015}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 98}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 246
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove027}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 98}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 247
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove028}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 98}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 248
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove029}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 98}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 249
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove030}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 99}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 250
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove011}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 99}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 251
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove012}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 99}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 252
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove013}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 99}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 253
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove014}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 99}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 254
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_mglove022}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 100}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 255
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove012}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 100}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 256
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mglove002}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 100}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 257
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove010}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 100}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 258
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove014}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 100}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 259
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove013}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 101}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 260
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove015}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 101}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 261
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_it_mglove004}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 101}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 262
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove011}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 101}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 263
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mbracer012}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 101}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 264
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_nash_glove}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 102}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 265
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_mglove001}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 102}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 266
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_adahelm}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 102}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 267
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_armhe014}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 102}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 268
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_armhe015}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 102}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 269
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_helm_004}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 103}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 270
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_ardrowhe001}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 103}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 271
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_arduerhe001}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 104}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 272
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_armhe003}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 104}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 273
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_armhe004}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 104}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 274
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_armhe006}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 105}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 275
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_armhe005}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 105}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 276
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_arhelm03}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 106}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 277
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_armhe007}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 106}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 278
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_armhe008}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 106}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 279
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_armhe010}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 107}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 280
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_armhe012}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 107}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 281
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_armhe009}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 108}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 282
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_armhe010}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 108}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 283
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_armhe011}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 108}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 284
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_armhe016}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 110}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 285
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_armhe012}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 110}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 286
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_armhe017}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 110}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 287
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_armhe001}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 110}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 288
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_arhe004}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 110}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 289
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_helm_001}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 112}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 290
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_armhe002}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 112}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 291
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_armhe013}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 112}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 292
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_armhe011}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 112}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 293
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_armhe002}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 112}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 294
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x0_armhe001}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 114}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 295
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_it_novel004}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 114}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 296
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_it_arhelm01}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 114}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 297
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_helm_003}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 114}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 298
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_arhe001}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 114}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 299
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_armhe008}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 116}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 300
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_arhe002}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 116}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 301
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_arhe005}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 116}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 302
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_armhe009}
+        Repos_PosX: {type: word, value: 6}
+        Repos_Posy: {type: word, value: 116}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 303
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: x2_helm_002}
+        Repos_PosX: {type: word, value: 8}
+        Repos_Posy: {type: word, value: 116}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 304
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_armhe007}
+        Repos_PosX: {type: word, value: 0}
+        Repos_Posy: {type: word, value: 118}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 305
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_armhe006}
+        Repos_PosX: {type: word, value: 2}
+        Repos_Posy: {type: word, value: 118}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 306
+        Infinite: {type: byte, value: 1}
+        InventoryRes: {type: resref, value: nw_arhe003}
+        Repos_PosX: {type: word, value: 4}
+        Repos_Posy: {type: word, value: 118}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 4}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 2}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 3}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 1}
+Tag: {type: cexostr, value: GN1_STORE_Clothing_Cloaks_Shield}
+WillNotBuy:
+  type: list
+  value: []
+WillOnlyBuy:
+  type: list
+  value: []

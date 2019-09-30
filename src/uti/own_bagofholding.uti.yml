@@ -1,0 +1,46 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 66}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 2265}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  str_ref: 64105
+  value:
+    0: 'Prized by pack rats far and wide, Bags of Holding originated among the mischievous
+      kender in the far-off world of Krynn. According to popular folklore, one enterprising
+      kender actually founded a utopian village inside his Bag of Holding. It apparently
+      continues to thrive to this very day.
+
+'
+Description:
+  type: cexolocstr
+  value: {}
+Identified: {type: byte, value: 1}
+LocalizedName:
+  type: cexolocstr
+  str_ref: 13065
+  value: {}
+ModelPart1: {type: byte, value: 2}
+PaletteID: {type: byte, value: 23}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 15}
+    CostValue: {type: word, value: 5}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 255}
+    PropertyName: {type: word, value: 32}
+    Subtype: {type: word, value: 0}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 1}
+Tag: {type: cexostr, value: OWN_BagOfHolding}
+TemplateResRef: {type: resref, value: own_bagofholding}

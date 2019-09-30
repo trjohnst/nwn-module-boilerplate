@@ -1,0 +1,52 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 80}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 9001}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: "Even though wizards can harbor powerful spells, their main weakness is the
+      fact that they cannot wear any sort of armor without suffering severe limitations
+      to their casting abilities.  Although with proper training wizards may overcome
+      these restrictions, wizards will normally choose to enchant their robes or a
+      ring to have deflective properties so as to remain unfettered by bulky armor.
+      But if by chance a talented fighter or a skilled bowman connected with his weapon,
+      the wizard would not have the fortitude to last long.\n\nClerics of Mystra,
+      seeing this dilemma that fell upon the wizards of the land, \nmade cloaks blessed
+      by Mystra herself. These cloaks granted the wizard special protection where
+      most, if not all, the damage dealt by a weapon would be negated. Needless to
+      say that wizards who acquired the cloaks, which eventually were called Mystra's
+      Blessing, felt even more powerful, if not invulnerable."
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 0}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Mystra's Blessing
+ModelPart1: {type: byte, value: 12}
+PaletteID: {type: byte, value: 18}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 6}
+    CostValue: {type: word, value: 2}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 22}
+    Subtype: {type: word, value: 0}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: MystrasBlessing}
+TemplateResRef: {type: resref, value: mystrasblessin}

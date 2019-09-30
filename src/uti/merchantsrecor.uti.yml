@@ -1,0 +1,35 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 6}
+BaseItem: {type: int, value: 74}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 7}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: This obviously quite old book holds various price lists, sales records, remarks
+      about goods, customers, etc.
+Description:
+  type: cexolocstr
+  str_ref: 13026
+  value:
+    0: ''
+Identified: {type: byte, value: 1}
+LocalizedName:
+  type: cexolocstr
+  str_ref: 13025
+  value:
+    0: Merchant's Records
+ModelPart1: {type: byte, value: 8}
+PaletteID: {type: byte, value: 0}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value: []
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: MerchantsRecords}
+TemplateResRef: {type: resref, value: merchantsrecor}

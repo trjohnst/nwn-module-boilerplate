@@ -1,0 +1,96 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+ArmorPart_Belt: {type: byte, value: 16}
+ArmorPart_LBicep: {type: byte, value: 6}
+ArmorPart_LFArm: {type: byte, value: 6}
+ArmorPart_LFoot: {type: byte, value: 5}
+ArmorPart_LHand: {type: byte, value: 4}
+ArmorPart_LShin: {type: byte, value: 5}
+ArmorPart_LShoul: {type: byte, value: 19}
+ArmorPart_LThigh: {type: byte, value: 6}
+ArmorPart_Neck: {type: byte, value: 5}
+ArmorPart_Pelvis: {type: byte, value: 6}
+ArmorPart_RBicep: {type: byte, value: 6}
+ArmorPart_RFArm: {type: byte, value: 6}
+ArmorPart_RFoot: {type: byte, value: 5}
+ArmorPart_RHand: {type: byte, value: 4}
+ArmorPart_RShin: {type: byte, value: 5}
+ArmorPart_RShoul: {type: byte, value: 19}
+ArmorPart_RThigh: {type: byte, value: 6}
+ArmorPart_Robe: {type: byte, value: 0}
+ArmorPart_Torso: {type: byte, value: 21}
+BaseItem: {type: int, value: 16}
+Charges: {type: byte, value: 0}
+Cloth1Color: {type: byte, value: 55}
+Cloth2Color: {type: byte, value: 55}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 83911}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: This armor seems to be constantly shifting in and out of existence. It's hard
+      to focus your view on it and you can actually see right through the armor. And
+      for a full plate mail this armor is of exceptionally low weight. If you couldn't
+      touch it and feel the cold steel it was crafted from, you couldn't tell whether
+      this armor was real of just an illusion.
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 0}
+Leather1Color: {type: byte, value: 40}
+Leather2Color: {type: byte, value: 54}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Etheral Armor
+Metal1Color: {type: byte, value: 29}
+Metal2Color: {type: byte, value: 28}
+PaletteID: {type: byte, value: 8}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 2}
+    CostValue: {type: word, value: 4}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 1}
+    Subtype: {type: word, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 10}
+    CostValue: {type: word, value: 4}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 11}
+    Subtype: {type: word, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 3}
+    CostValue: {type: word, value: 10}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 15}
+    Subtype: {type: word, value: 196}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 18}
+    CostValue: {type: word, value: 1}
+    Param1: {type: byte, value: 9}
+    Param1Value: {type: byte, value: 2}
+    PropertyName: {type: word, value: 44}
+    Subtype: {type: word, value: 0}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: EtheralArmor}
+TemplateResRef: {type: resref, value: etheralarmor}

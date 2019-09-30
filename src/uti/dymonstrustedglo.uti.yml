@@ -1,0 +1,64 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 36}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 19590}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: |-
+      Dymon was not only a powerful and strong warrior - he really was a hulk, capable of taking any opponent down with a single blow of his huge two-handed flail. The only problem was that Dymon was not only impressivly huge but also amazingly clumsy and sluggish. Not that he didn't try not to be, but he simply was too big for being agile.
+
+      Many times he got injured by traps and attacks his comrades could evade by simply dodging them. Fortunately Dymon was extremely tough so he could simply shrug off these attacks. But Dymon was angry about being so clumsy, envying those who moved with grace, being agile and quick to react.
+
+      A friend and comrade of Dymon felt sorry for him, and together they set out to find someone capable of creating some magical item that would help Dymon becoming more agile himself. Eventually they found an elven wizard who created these pair of gloves.
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 0}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Dymon's Trusted Gloves
+ModelPart1: {type: byte, value: 8}
+PaletteID: {type: byte, value: 19}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 3}
+    CostValue: {type: word, value: 9}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 15}
+    Subtype: {type: word, value: 25}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 3}
+    CostValue: {type: word, value: 9}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 15}
+    Subtype: {type: word, value: 137}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 2}
+    CostValue: {type: word, value: 4}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 41}
+    Subtype: {type: word, value: 3}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: DymonsTrustedGloves}
+TemplateResRef: {type: resref, value: dymonstrustedglo}

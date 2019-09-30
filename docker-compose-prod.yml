@@ -1,0 +1,13 @@
+version: '3'
+services:
+  server:
+    image: "nwnxee/unified"
+    volumes:
+      - ./logs:/nwn/run/logs.0
+      - ./server:/nwn/home
+    env_file: ./config/server.env
+    network_mode: "host"
+    ports:
+      - "5121:5121/udp"
+    stdin_open: true
+    tty: true

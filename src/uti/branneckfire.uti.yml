@@ -1,0 +1,64 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 19}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 3901}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: After suffering many painful scorches from countless encounters with hell hounds,
+      fire elementals, and spellcasters hurling fireballs like no tommorow, Bran spent
+      much of his fortune on creating a this amulet. By combining several different
+      forms of protections and resistances, he thought to create the ultimate artifact
+      of protection against fire. Unfortunately for Bran, several weak protections
+      and resistances are still ... weak.
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 0}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Bran's Necklace of Fire Resistance
+ModelPart1: {type: byte, value: 16}
+PaletteID: {type: byte, value: 21}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 7}
+    CostValue: {type: word, value: 1}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 23}
+    Subtype: {type: word, value: 10}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 5}
+    CostValue: {type: word, value: 1}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 20}
+    Subtype: {type: word, value: 10}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 2}
+    CostValue: {type: word, value: 1}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 40}
+    Subtype: {type: word, value: 9}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: BransNecklaceofFireResistance}
+TemplateResRef: {type: resref, value: branneckfire}

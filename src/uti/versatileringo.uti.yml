@@ -1,0 +1,44 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 52}
+Charges: {type: byte, value: 50}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 12501}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: |-
+      Unlike most other magical rings able to bestow protective spells upon its wearer, this particular ring doesn't have a predetermined spell. Instead the wearer may choose one spell and cast it upon the ring. Once this has been done, the ring will bestow this spell upon its wearer when the correct command word is spoken.
+
+      Before casting a spell onto the ring, however, the wearer should choose carefully, since once the ring has been imbued with a spell, this spell can not be changed anymore. Furthermore the powers of this ring aren't infinite; every time the ring is used to cast the chosen spell upon its wearer, the ring uses up a charge. Once all charges are used up, the ring will crumble to dust.
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 0}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Versatile Ring of Protection
+ModelPart1: {type: byte, value: 8}
+PaletteID: {type: byte, value: 22}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 3}
+    CostValue: {type: word, value: 6}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 15}
+    Subtype: {type: word, value: 521}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: VersatileRingofProtection}
+TemplateResRef: {type: resref, value: versatileringo}

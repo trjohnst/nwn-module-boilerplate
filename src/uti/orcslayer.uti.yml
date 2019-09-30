@@ -1,0 +1,55 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 2}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 832}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: The enmity between dwarves and orcs spawned many weapons specially crafted
+      to slay on kin or the other. Since orcs not only pose a threat to dwarves but
+      to any civilized nation, many of these dwarven weapons can be found throughout
+      the lands.
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 0}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Orc Slayer
+ModelPart1: {type: byte, value: 21}
+ModelPart2: {type: byte, value: 41}
+ModelPart3: {type: byte, value: 61}
+PaletteID: {type: byte, value: 31}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 2}
+    CostValue: {type: word, value: 1}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 56}
+    Subtype: {type: word, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 4}
+    CostValue: {type: word, value: 6}
+    Param1: {type: byte, value: 0}
+    Param1Value: {type: byte, value: 10}
+    PropertyName: {type: word, value: 18}
+    Subtype: {type: word, value: 14}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: OrcSlayer}
+TemplateResRef: {type: resref, value: orcslayer}

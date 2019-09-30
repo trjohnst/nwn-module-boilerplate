@@ -1,0 +1,288 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTE
+__struct_id: 4294967295
+Active: {type: byte, value: 1}
+Comment: {type: cexostr, value: ''}
+CreatureList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 6}
+    CR: {type: float, value: 0.5}
+    ResRef: {type: resref, value: nw_tiefling02}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 360}
+    CR: {type: float, value: 1.0}
+    ResRef: {type: resref, value: x0_form_worker}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 428}
+    CR: {type: float, value: 2.0}
+    ResRef: {type: resref, value: x2_azer001}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 429}
+    CR: {type: float, value: 2.0}
+    ResRef: {type: resref, value: x2_azer002}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 106}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_mepair}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 107}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_mepdust}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 108}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_mepearth}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 109}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_mepfire}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 110}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_mepice}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 105}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_imp}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 114}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_mepmagma}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 112}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_mepooze}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 104}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_dmquasit}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 111}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_mepsalt}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 113}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_mepsteam}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 115}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_mepwater}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 177}
+    CR: {type: float, value: 4.0}
+    ResRef: {type: resref, value: nw_fenhound}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 361}
+    CR: {type: float, value: 4.0}
+    ResRef: {type: resref, value: x0_form_warrior}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 179}
+    CR: {type: float, value: 4.0}
+    ResRef: {type: resref, value: nw_hellhound}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 180}
+    CR: {type: float, value: 4.0}
+    ResRef: {type: resref, value: nw_shmastif}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 179}
+    CR: {type: float, value: 5.0}
+    ResRef: {type: resref, value: nw_beastxvim}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 155}
+    CR: {type: float, value: 6.0}
+    ResRef: {type: resref, value: nw_slaadred}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 151}
+    CR: {type: float, value: 7.0}
+    ResRef: {type: resref, value: nw_slaadbl}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 361}
+    CR: {type: float, value: 7.0}
+    ResRef: {type: resref, value: x0_form_taskmast}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 293}
+    CR: {type: float, value: 7.0}
+    ResRef: {type: resref, value: nw_rakshasa}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 163}
+    CR: {type: float, value: 7.0}
+    ResRef: {type: resref, value: nw_dmsucubus}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 163}
+    CR: {type: float, value: 8.0}
+    ResRef: {type: resref, value: x2_erinyes}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 5}
+    CR: {type: float, value: 8.0}
+    ResRef: {type: resref, value: nw_halffnd001}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 154}
+    CR: {type: float, value: 9.0}
+    ResRef: {type: resref, value: nw_slaadgrn}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 153}
+    CR: {type: float, value: 10.0}
+    ResRef: {type: resref, value: nw_slaadgray}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 101}
+    CR: {type: float, value: 10.0}
+    ResRef: {type: resref, value: nw_dmvrock}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 362}
+    CR: {type: float, value: 11.0}
+    ResRef: {type: resref, value: x0_form_myrmarch}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 153}
+    CR: {type: float, value: 11.0}
+    ResRef: {type: resref, value: nw_slaadgryboss}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 422}
+    CR: {type: float, value: 12.0}
+    ResRef: {type: resref, value: x2_spiderdemo001}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 38}
+    CR: {type: float, value: 15.0}
+    ResRef: {type: resref, value: nw_demon}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 152}
+    CR: {type: float, value: 15.0}
+    ResRef: {type: resref, value: nw_slaaddeth}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 152}
+    CR: {type: float, value: 15.0}
+    ResRef: {type: resref, value: nw_slaaddthboss}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 392}
+    CR: {type: float, value: 15.0}
+    ResRef: {type: resref, value: nw_devil001}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 392}
+    CR: {type: float, value: 15.0}
+    ResRef: {type: resref, value: x2_pitfiend001}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 38}
+    CR: {type: float, value: 16.0}
+    ResRef: {type: resref, value: nw_balorboss}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 363}
+    CR: {type: float, value: 20.0}
+    ResRef: {type: resref, value: x0_form_queen}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 427}
+    CR: {type: float, value: 25.0}
+    ResRef: {type: resref, value: x2_slaadwhite001}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 426}
+    CR: {type: float, value: 30.0}
+    ResRef: {type: resref, value: x2_slaadblack001}
+    SingleSpawn: {type: byte, value: 0}
+Difficulty: {type: int, value: 2}
+DifficultyIndex: {type: int, value: 2}
+Faction: {type: dword, value: 1}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Planar
+MaxCreatures: {type: int, value: 8}
+OnEntered: {type: resref, value: ''}
+OnExhausted: {type: resref, value: ''}
+OnExit: {type: resref, value: ''}
+OnHeartbeat: {type: resref, value: ''}
+OnUserDefined: {type: resref, value: ''}
+PaletteID: {type: byte, value: 7}
+PlayerOnly: {type: byte, value: 1}
+RecCreatures: {type: int, value: 1}
+Reset: {type: byte, value: 1}
+ResetTime: {type: int, value: 120}
+Respawns: {type: int, value: -1}
+SpawnOption: {type: int, value: 0}
+Tag: {type: cexostr, value: Planar}
+TemplateResRef: {type: resref, value: planar}

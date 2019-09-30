@@ -1,0 +1,45 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 74}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 1}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value: {}
+Description:
+  type: cexolocstr
+  value:
+    0: |-
+      You have heard some tales and stories about ancient tomes, but this book seems so old, it must have been written not centuries but millenia ago.
+
+      The cover's leather original color can't be told anymore, many pages are missing, and the remaing ones look like they would crumble right under your careful fingers. The text is written in an unknown language, but the letters itself appear somewhat familiar, almost like dwarven runes.
+
+      You can't even figure out what this book is about, but since the drow had locked it away in a sealed chest, it must have been of some importance to her.
+Identified: {type: byte, value: 0}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Torn Book
+ModelPart1: {type: byte, value: 1}
+PaletteID: {type: byte, value: 54}
+Plot: {type: byte, value: 1}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 0}
+    CostValue: {type: word, value: 0}
+    Param1: {type: byte, value: 11}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 81}
+    Subtype: {type: word, value: 0}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: Drow_TornBook}
+TemplateResRef: {type: resref, value: tornbook}

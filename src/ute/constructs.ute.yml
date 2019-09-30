@@ -1,0 +1,108 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTE
+__struct_id: 4294967295
+Active: {type: byte, value: 1}
+Comment: {type: cexostr, value: ''}
+CreatureList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 88}
+    CR: {type: float, value: 8.0}
+    ResRef: {type: resref, value: nw_golflesh}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 119}
+    CR: {type: float, value: 8.0}
+    ResRef: {type: resref, value: nw_minogon}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 91}
+    CR: {type: float, value: 10.0}
+    ResRef: {type: resref, value: nw_golclay}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 24}
+    CR: {type: float, value: 11.0}
+    ResRef: {type: resref, value: nw_golbone}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 100}
+    CR: {type: float, value: 11.0}
+    ResRef: {type: resref, value: nw_helmhorr}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 92}
+    CR: {type: float, value: 12.0}
+    ResRef: {type: resref, value: nw_golstone}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 11}
+    CR: {type: float, value: 13.0}
+    ResRef: {type: resref, value: nw_bathorror}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 90}
+    CR: {type: float, value: 13.0}
+    ResRef: {type: resref, value: nw_shguard}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 89}
+    CR: {type: float, value: 16.0}
+    ResRef: {type: resref, value: nw_goliron}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 89}
+    CR: {type: float, value: 21.0}
+    ResRef: {type: resref, value: x2_goliron_huge}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 468}
+    CR: {type: float, value: 25.0}
+    ResRef: {type: resref, value: nw_goldmflesh001}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 421}
+    CR: {type: float, value: 32.0}
+    ResRef: {type: resref, value: x2_golem002}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 420}
+    CR: {type: float, value: 35.0}
+    ResRef: {type: resref, value: x2_golem001}
+    SingleSpawn: {type: byte, value: 0}
+Difficulty: {type: int, value: 2}
+DifficultyIndex: {type: int, value: 2}
+Faction: {type: dword, value: 1}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Constructs
+MaxCreatures: {type: int, value: 8}
+OnEntered: {type: resref, value: ''}
+OnExhausted: {type: resref, value: ''}
+OnExit: {type: resref, value: ''}
+OnHeartbeat: {type: resref, value: ''}
+OnUserDefined: {type: resref, value: ''}
+PaletteID: {type: byte, value: 7}
+PlayerOnly: {type: byte, value: 1}
+RecCreatures: {type: int, value: 1}
+Reset: {type: byte, value: 1}
+ResetTime: {type: int, value: 120}
+Respawns: {type: int, value: -1}
+SpawnOption: {type: int, value: 0}
+Tag: {type: cexostr, value: Constructs}
+TemplateResRef: {type: resref, value: constructs}

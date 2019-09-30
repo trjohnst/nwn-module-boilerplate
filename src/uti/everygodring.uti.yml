@@ -1,0 +1,55 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 52}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 72201}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: "These rings are on of the most well kept secrets among the pious. In order
+      for these rings to be created, they must be blessed by priests of all known\n
+      deities. Of course, such a task causes enormous problems, especially for those
+      faiths that conflict with each other.\n\nIt is not surprising that those who
+      choose to don the ring refuse \nto reveal its origins for fear of being persecuted
+      by their own brethren."
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 0}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Every God Ring
+ModelPart1: {type: byte, value: 1}
+PaletteID: {type: byte, value: 22}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 1}
+    CostValue: {type: word, value: 6}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 0}
+    Subtype: {type: word, value: 4}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 18}
+    CostValue: {type: word, value: 3}
+    Param1: {type: byte, value: 9}
+    Param1Value: {type: byte, value: 1}
+    PropertyName: {type: word, value: 44}
+    Subtype: {type: word, value: 0}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: EveryGodRing}
+TemplateResRef: {type: resref, value: everygodring}

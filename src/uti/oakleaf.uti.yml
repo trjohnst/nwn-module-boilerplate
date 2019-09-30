@@ -1,0 +1,131 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+ArmorPart_Belt: {type: byte, value: 13}
+ArmorPart_LBicep: {type: byte, value: 6}
+ArmorPart_LFArm: {type: byte, value: 6}
+ArmorPart_LFoot: {type: byte, value: 11}
+ArmorPart_LHand: {type: byte, value: 1}
+ArmorPart_LShin: {type: byte, value: 15}
+ArmorPart_LShoul: {type: byte, value: 3}
+ArmorPart_LThigh: {type: byte, value: 6}
+ArmorPart_Neck: {type: byte, value: 3}
+ArmorPart_Pelvis: {type: byte, value: 20}
+ArmorPart_RBicep: {type: byte, value: 6}
+ArmorPart_RFArm: {type: byte, value: 6}
+ArmorPart_RFoot: {type: byte, value: 11}
+ArmorPart_RHand: {type: byte, value: 1}
+ArmorPart_RShin: {type: byte, value: 15}
+ArmorPart_RShoul: {type: byte, value: 3}
+ArmorPart_RThigh: {type: byte, value: 6}
+ArmorPart_Robe: {type: byte, value: 0}
+ArmorPart_Torso: {type: byte, value: 38}
+BaseItem: {type: int, value: 16}
+Charges: {type: byte, value: 0}
+Cloth1Color: {type: byte, value: 16}
+Cloth2Color: {type: byte, value: 18}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 8137}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: Each single scale of this armor bears the shape of an oak leaf, giving the
+      armor its name. It grants its wearer some protection against nature's elements,
+      but may only be worn by those who devoted themselves to preserve balance in
+      all things.
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 0}
+Leather1Color: {type: byte, value: 1}
+Leather2Color: {type: byte, value: 7}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Oak Leaf
+Metal1Color: {type: byte, value: 47}
+Metal2Color: {type: byte, value: 44}
+PaletteID: {type: byte, value: 7}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 2}
+    CostValue: {type: word, value: 1}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 1}
+    Subtype: {type: word, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 7}
+    CostValue: {type: word, value: 2}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 23}
+    Subtype: {type: word, value: 7}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 7}
+    CostValue: {type: word, value: 2}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 23}
+    Subtype: {type: word, value: 9}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 7}
+    CostValue: {type: word, value: 2}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 23}
+    Subtype: {type: word, value: 10}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 0}
+    CostValue: {type: word, value: 0}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 62}
+    Subtype: {type: word, value: 1}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 0}
+    CostValue: {type: word, value: 0}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 63}
+    Subtype: {type: word, value: 3}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 0}
+    CostValue: {type: word, value: 0}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 63}
+    Subtype: {type: word, value: 28}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 0}
+    CostValue: {type: word, value: 0}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 63}
+    Subtype: {type: word, value: 7}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: OakLeaf}
+TemplateResRef: {type: resref, value: oakleaf}

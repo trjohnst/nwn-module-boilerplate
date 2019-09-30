@@ -1,0 +1,46 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: JRL
+__struct_id: 4294967295
+Categories:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Comment: {type: cexostr, value: ''}
+    EntryList:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        End: {type: word, value: 1}
+        ID: {type: dword, value: 1}
+        Text:
+          type: cexolocstr
+          value:
+            0: "The commands are devided into four categories:\n\n1) Level Commands,
+              \n2) Experience Points Commands,\n3) Alignment Commands, and\n4) Money/Equipment
+              Commands.\n\nIn the first two categories, X is used as a numeric value
+              which has different ranges, depending on what command category you're
+              using. For Level Commands, X can be anything from 1 to 40; Experience
+              Points Commands accept ranges for X from 0 (zero) to 780,000 (though
+              you should type 780000 and not 780,000).\n\n1) Level Commands\n\n+  =>
+              add one level\n+X => add X levels\n-  => remove one level\n-X => remove
+              X levels\nX => set to level X\n\n2) Experience Points Commands\n\nXP+X
+              => add X experience points\nXP-X => remove X experience points\nXP X
+              => set experience points to X\n\n3) Alignment Commands\n\nLG => become
+              Lawful Good\nNG => become Neutral Good\nCG => become Chaotic Good, etc.
+              (use LN, TN, CE, LE, NE and CE for the according neutral and evil alignments)\n\n4)
+              Money/Equipmnt Commands\n\ncash => receive 50,000 gp\nstuff = > start
+              a conversation to open the various stores\n\n In case something isn't
+              clear to you, just talk to Gangster No.1 again, and he will give you
+              a (quite detailed but lengthy) explanation of all functions. Anyway,
+              just try around. Whenever you entered an invalid command, a message
+              will appear tell you that you just talked crap."
+    Name:
+      type: cexolocstr
+      value:
+        0: Leveler Commands
+    Picture: {type: word, value: 65535}
+    Priority: {type: dword, value: 4}
+    Tag: {type: cexostr, value: LevCom}
+    XP: {type: dword, value: 0}

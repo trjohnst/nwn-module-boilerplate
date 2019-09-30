@@ -1,0 +1,46 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 53}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: '1'}
+Cost: {type: dword, value: 434}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: |-
+      The scimitar shares some similarities with the longsword and other slashing blades, but the severity and thickness of its curve clearly sets it apart.
+
+      Although masterwork weapons are non-magical they offer a bonus to attack due to the excellent crafting skills and materials used when creating them.
+Description:
+  type: cexolocstr
+  value: {}
+Identified: {type: byte, value: 1}
+LocalizedName:
+  type: cexolocstr
+  str_ref: 1547
+  value:
+    0: Masterwork Scimitar
+ModelPart1: {type: byte, value: 11}
+ModelPart2: {type: byte, value: 11}
+ModelPart3: {type: byte, value: 11}
+PaletteID: {type: byte, value: 37}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 2}
+    CostValue: {type: word, value: 1}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 56}
+    Subtype: {type: word, value: 0}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: MasterworkScimitar}
+TemplateResRef: {type: resref, value: mw_scimitar}

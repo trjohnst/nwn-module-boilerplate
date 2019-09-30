@@ -1,0 +1,126 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTE
+__struct_id: 4294967295
+Active: {type: byte, value: 1}
+Comment: {type: cexostr, value: ''}
+CreatureList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 60}
+    CR: {type: float, value: 3.0}
+    ResRef: {type: resref, value: nw_fire}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 52}
+    CR: {type: float, value: 4.0}
+    ResRef: {type: resref, value: nw_air}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 56}
+    CR: {type: float, value: 4.0}
+    ResRef: {type: resref, value: nw_earth}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 69}
+    CR: {type: float, value: 4.0}
+    ResRef: {type: resref, value: nw_water}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 64}
+    CR: {type: float, value: 6.0}
+    ResRef: {type: resref, value: nw_invstalk}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 56}
+    CR: {type: float, value: 11.0}
+    ResRef: {type: resref, value: nw_earthhuge}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 69}
+    CR: {type: float, value: 11.0}
+    ResRef: {type: resref, value: nw_waterhuge}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 60}
+    CR: {type: float, value: 12.0}
+    ResRef: {type: resref, value: nw_firehuge}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 52}
+    CR: {type: float, value: 13.0}
+    ResRef: {type: resref, value: nw_airhuge}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 69}
+    CR: {type: float, value: 14.0}
+    ResRef: {type: resref, value: nw_watergreat}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 56}
+    CR: {type: float, value: 15.0}
+    ResRef: {type: resref, value: nw_earthgreat}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 60}
+    CR: {type: float, value: 15.0}
+    ResRef: {type: resref, value: nw_firegreat}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 68}
+    CR: {type: float, value: 16.0}
+    ResRef: {type: resref, value: nw_watelder}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 57}
+    CR: {type: float, value: 17.0}
+    ResRef: {type: resref, value: nw_eartheld}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 52}
+    CR: {type: float, value: 18.0}
+    ResRef: {type: resref, value: nw_airgreat}
+    SingleSpawn: {type: byte, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    Appearance: {type: int, value: 53}
+    CR: {type: float, value: 20.0}
+    ResRef: {type: resref, value: nw_airelder}
+    SingleSpawn: {type: byte, value: 0}
+Difficulty: {type: int, value: 2}
+DifficultyIndex: {type: int, value: 2}
+Faction: {type: dword, value: 1}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Elementals
+MaxCreatures: {type: int, value: 8}
+OnEntered: {type: resref, value: ''}
+OnExhausted: {type: resref, value: ''}
+OnExit: {type: resref, value: ''}
+OnHeartbeat: {type: resref, value: ''}
+OnUserDefined: {type: resref, value: ''}
+PaletteID: {type: byte, value: 7}
+PlayerOnly: {type: byte, value: 1}
+RecCreatures: {type: int, value: 1}
+Reset: {type: byte, value: 1}
+ResetTime: {type: int, value: 120}
+Respawns: {type: int, value: -1}
+SpawnOption: {type: int, value: 0}
+Tag: {type: cexostr, value: Elementals}
+TemplateResRef: {type: resref, value: elementals}

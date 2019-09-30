@@ -1,0 +1,44 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 79}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 2701}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: |-
+      Vran de Cron, a amazingly cunning halfling rogue, claimed of being able to pick every lock made by mortal men. To everyone's surprise, he actually had that skill, and soon Vran became the most successful thief in Baldur's Gate - and the most wanted. The bounty on his head grew day by day, and after he was finally caught, the secret of his success was revealed.
+
+      What nobody had known, Vran actually wasn't a rogue, but a highly talented wizard. He had used his arcane powers to craft a special key, able of opening all locks not protected by magic. Of course, every single criminal along the Sword Coast sought after this key, safely stashed away in the city's guard house. Still, one day the Forbidden Key disappeared. Who had taken it, as well as its whereabouts, are unknown to the present day.
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 0}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Forbidden Key
+ModelPart1: {type: byte, value: 44}
+PaletteID: {type: byte, value: 23}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 3}
+    CostValue: {type: word, value: 8}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 15}
+    Subtype: {type: word, value: 154}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: ForbiddenKey}
+TemplateResRef: {type: resref, value: forbiddenkey}

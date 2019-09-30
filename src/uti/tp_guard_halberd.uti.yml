@@ -1,0 +1,44 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 10}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: '1'}
+Cost: {type: dword, value: 1824}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: This halberd bears the mark of the trading post's watch.
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 1}
+LocalizedName:
+  type: cexolocstr
+  str_ref: 175
+  value:
+    0: Masterwork Halberd
+ModelPart1: {type: byte, value: 21}
+ModelPart2: {type: byte, value: 14}
+ModelPart3: {type: byte, value: 11}
+PaletteID: {type: byte, value: 0}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 2}
+    CostValue: {type: word, value: 2}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 56}
+    Subtype: {type: word, value: 0}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 1}
+Tag: {type: cexostr, value: TP_Guard_MasterworkHalberd}
+TemplateResRef: {type: resref, value: tp_guard_halberd}

@@ -1,0 +1,46 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 25}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 3168}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: |-
+      Humanoid tigers garbed in the clothes of nobility, Rakshasa use their considerable powers to maintain their decadent lifestyles at others' expense. They are cruel, evil, and love to disguise themselves as harmless and innocent people in dispair, luring their victims into deadly traps and ambushes.
+
+      Being gifted with a magical resistance, that grants them invulnerability to all but the most powerful arcane and divine spells, along with their outsider-typical immunity against non-magical weapons, Rakshasa don't have to fear much - except these bolts, blessed by the high priest of good aligned deities.
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 0}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Blessed Bolt
+ModelPart1: {type: byte, value: 12}
+ModelPart2: {type: byte, value: 12}
+ModelPart3: {type: byte, value: 12}
+PaletteID: {type: byte, value: 28}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 26}
+    CostValue: {type: word, value: 1}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 82}
+    Subtype: {type: word, value: 123}
+StackSize: {type: word, value: 99}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: BlessedBolt}
+TemplateResRef: {type: resref, value: blbolt_rakshasa}

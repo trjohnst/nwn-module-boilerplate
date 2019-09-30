@@ -1,0 +1,103 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 17}
+Charges: {type: byte, value: 0}
+Cloth1Color: {type: byte, value: 60}
+Cloth2Color: {type: byte, value: 45}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 5932}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: This helmet is both a bless and a curse. It allows its wearer to focus his
+      mind and thoughts, but on the other hand highly restricts the wearers, hearing
+      and vision, making him vulnerable to many threats.
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 0}
+Leather1Color: {type: byte, value: 45}
+Leather2Color: {type: byte, value: 45}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Mask of Focus
+Metal1Color: {type: byte, value: 15}
+Metal2Color: {type: byte, value: 23}
+ModelPart1: {type: byte, value: 15}
+PaletteID: {type: byte, value: 9}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 20}
+    CostValue: {type: word, value: 3}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 28}
+    Subtype: {type: word, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 20}
+    CostValue: {type: word, value: 3}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 50}
+    Subtype: {type: word, value: 3}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 21}
+    CostValue: {type: word, value: 10}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 29}
+    Subtype: {type: word, value: 6}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 21}
+    CostValue: {type: word, value: 10}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 29}
+    Subtype: {type: word, value: 17}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 21}
+    CostValue: {type: word, value: 10}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 29}
+    Subtype: {type: word, value: 21}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 2}
+    CostValue: {type: word, value: 2}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 41}
+    Subtype: {type: word, value: 2}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 25}
+    CostValue: {type: word, value: 10}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 52}
+    Subtype: {type: word, value: 1}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: MaskofFocus}
+TemplateResRef: {type: resref, value: maskoffocus}

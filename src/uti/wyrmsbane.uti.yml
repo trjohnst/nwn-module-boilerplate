@@ -1,0 +1,81 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 1}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: unique}
+Cost: {type: dword, value: 57522}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: |
+      Against any other kind of creature other than reptilians, lizards and dragons, Wyrmsbane acts like a normal longsword.
+
+      But when wielded against one those forementioned creatures, Wyrmsbane shows its devastating powers, able to penetrate virtually all protective spells and other magical defenses known, dealing enourmes amounts of damage. Furthermore, Wyrmsbane can by used to cast a spell similar to Clarity, protecting those that receive that spell from mind affecting attacks. This power can be used up to three times per day.
+Description:
+  type: cexolocstr
+  value: {}
+Identified: {type: byte, value: 0}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Wyrmsbane
+ModelPart1: {type: byte, value: 83}
+ModelPart2: {type: byte, value: 23}
+ModelPart3: {type: byte, value: 83}
+PaletteID: {type: byte, value: 36}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 3}
+    CostValue: {type: word, value: 10}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 15}
+    Subtype: {type: word, value: 46}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 4}
+    CostValue: {type: word, value: 11}
+    Param1: {type: byte, value: 0}
+    Param1Value: {type: byte, value: 2}
+    PropertyName: {type: word, value: 18}
+    Subtype: {type: word, value: 11}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 4}
+    CostValue: {type: word, value: 11}
+    Param1: {type: byte, value: 0}
+    Param1Value: {type: byte, value: 2}
+    PropertyName: {type: word, value: 18}
+    Subtype: {type: word, value: 15}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 2}
+    CostValue: {type: word, value: 5}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 8}
+    Subtype: {type: word, value: 11}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 2}
+    CostValue: {type: word, value: 5}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 8}
+    Subtype: {type: word, value: 15}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: Wyrmsbane}
+TemplateResRef: {type: resref, value: wyrmsbane}

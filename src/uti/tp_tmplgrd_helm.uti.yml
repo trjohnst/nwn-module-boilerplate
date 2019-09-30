@@ -1,0 +1,67 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 17}
+Charges: {type: byte, value: 0}
+Cloth1Color: {type: byte, value: 46}
+Cloth2Color: {type: byte, value: 20}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 840}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  str_ref: 90511
+  value:
+    0: This fine steel helmet bears the mark of Tyr.
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 0}
+Leather1Color: {type: byte, value: 46}
+Leather2Color: {type: byte, value: 46}
+LocalizedName:
+  type: cexolocstr
+  str_ref: 90510
+  value:
+    0: Temple Guard Helmet
+Metal1Color: {type: byte, value: 38}
+Metal2Color: {type: byte, value: 13}
+ModelPart1: {type: byte, value: 5}
+PaletteID: {type: byte, value: 0}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 7}
+    CostValue: {type: word, value: 1}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 23}
+    Subtype: {type: word, value: 8}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 7}
+    CostValue: {type: word, value: 1}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 23}
+    Subtype: {type: word, value: 11}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 25}
+    CostValue: {type: word, value: 2}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 52}
+    Subtype: {type: word, value: 1}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: tp_templeguard_helmet}
+TemplateResRef: {type: resref, value: tp_tmplgrd_helm}

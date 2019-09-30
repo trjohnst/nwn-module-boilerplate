@@ -1,0 +1,151 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+ArmorPart_Belt: {type: byte, value: 16}
+ArmorPart_LBicep: {type: byte, value: 7}
+ArmorPart_LFArm: {type: byte, value: 18}
+ArmorPart_LFoot: {type: byte, value: 5}
+ArmorPart_LHand: {type: byte, value: 5}
+ArmorPart_LShin: {type: byte, value: 17}
+ArmorPart_LShoul: {type: byte, value: 13}
+ArmorPart_LThigh: {type: byte, value: 10}
+ArmorPart_Neck: {type: byte, value: 4}
+ArmorPart_Pelvis: {type: byte, value: 21}
+ArmorPart_RBicep: {type: byte, value: 7}
+ArmorPart_RFArm: {type: byte, value: 18}
+ArmorPart_RFoot: {type: byte, value: 5}
+ArmorPart_RHand: {type: byte, value: 5}
+ArmorPart_RShin: {type: byte, value: 17}
+ArmorPart_RShoul: {type: byte, value: 13}
+ArmorPart_RThigh: {type: byte, value: 10}
+ArmorPart_Robe: {type: byte, value: 0}
+ArmorPart_Torso: {type: byte, value: 30}
+BaseItem: {type: int, value: 16}
+Charges: {type: byte, value: 0}
+Cloth1Color: {type: byte, value: 63}
+Cloth2Color: {type: byte, value: 58}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 19122}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  str_ref: 83073
+  value:
+    0: |-
+      The evil form of the paladin, the blackguard, is opposite in every way. As the image of the paladin often takes the form of a knight in shining armor, so the blackguard wears the dark plate that blends with the night.
+
+      Those who have fallen from the path of good and rightousness but haven't turned into a blackguard , can often be destinguished by their armor, both shining and dark like the night.
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 0}
+Leather1Color: {type: byte, value: 50}
+Leather2Color: {type: byte, value: 63}
+LocalizedName:
+  type: cexolocstr
+  str_ref: 83072
+  value:
+    0: Unholy Paladin Armor
+Metal1Color: {type: byte, value: 8}
+Metal2Color: {type: byte, value: 63}
+PaletteID: {type: byte, value: 8}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 2}
+    CostValue: {type: word, value: 1}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 1}
+    Subtype: {type: word, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 7}
+    CostValue: {type: word, value: 2}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 23}
+    Subtype: {type: word, value: 8}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 7}
+    CostValue: {type: word, value: 2}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 23}
+    Subtype: {type: word, value: 11}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 7}
+    CostValue: {type: word, value: 2}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 23}
+    Subtype: {type: word, value: 12}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 25}
+    CostValue: {type: word, value: 4}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 52}
+    Subtype: {type: word, value: 3}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 25}
+    CostValue: {type: word, value: 4}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 52}
+    Subtype: {type: word, value: 12}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 25}
+    CostValue: {type: word, value: 4}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 52}
+    Subtype: {type: word, value: 18}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 0}
+    CostValue: {type: word, value: 0}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 62}
+    Subtype: {type: word, value: 5}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 0}
+    CostValue: {type: word, value: 0}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 62}
+    Subtype: {type: word, value: 1}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 0}
+    CostValue: {type: word, value: 0}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 63}
+    Subtype: {type: word, value: 6}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: UnholyPaladinsArmor}
+TemplateResRef: {type: resref, value: unholypaladinsar}

@@ -1,0 +1,32 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 24}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 0}
+Cursed: {type: byte, value: 1}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: ''
+Description:
+  type: cexolocstr
+  value:
+    0: This gem is awarded to all dwarves of the Blue Steel clan upon reaching adulthood.
+Identified: {type: byte, value: 1}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Blue Steel Clan Gem
+ModelPart1: {type: byte, value: 1}
+PaletteID: {type: byte, value: 0}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value: []
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: BlueSteelClanGem}
+TemplateResRef: {type: resref, value: bluesteelclan}

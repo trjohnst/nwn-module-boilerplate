@@ -1,0 +1,87 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: ITP
+__struct_id: 4294967295
+MAIN:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ID: {type: byte, value: 5}
+    LIST:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: GN1_STORE_Axes}
+        RESREF: {type: resref, value: gn1_store_axes}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: GN1_STORE_Blades}
+        RESREF: {type: resref, value: gn1_store_blades}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: GN1_STORE_Blunts}
+        RESREF: {type: resref, value: gn1_store_blunts}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: GN1_STORE_Clothes_Armors}
+        RESREF: {type: resref, value: gn1_store_clothe}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: GN1_STORE_Clothing_Cloaks_Shields}
+        RESREF: {type: resref, value: gn1_store_clothi}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: GN1_STORE_Craft_Comps}
+        RESREF: {type: resref, value: gn1_store_craft_}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: GN1_STORE_Custom}
+        RESREF: {type: resref, value: gn1_store_custom}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: GN1_STORE_DoubleSided}
+        RESREF: {type: resref, value: gn1_store_double}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: GN1_STORE_Exotic}
+        RESREF: {type: resref, value: gn1_store_exotic}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: GN1_STORE_Misc}
+        RESREF: {type: resref, value: gn1_store_misc}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: GN1_STORE_Polearms}
+        RESREF: {type: resref, value: gn1_store_polear}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: GN1_STORE_Ranged}
+        RESREF: {type: resref, value: gn1_store_ranged}
+    STRREF: {type: dword, value: 6789}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    LIST:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ID: {type: byte, value: 0}
+        STRREF: {type: dword, value: 6688}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ID: {type: byte, value: 1}
+        STRREF: {type: dword, value: 6689}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ID: {type: byte, value: 2}
+        STRREF: {type: dword, value: 6690}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ID: {type: byte, value: 3}
+        STRREF: {type: dword, value: 6691}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        ID: {type: byte, value: 4}
+        STRREF: {type: dword, value: 6692}
+    STRREF: {type: dword, value: 6687}

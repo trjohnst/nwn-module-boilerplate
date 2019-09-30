@@ -1,0 +1,45 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 2}
+BaseItem: {type: int, value: 49}
+Charges: {type: byte, value: 0}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 2}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: Many proud dwarves will tell anyone who wants to hear (or is too drunk to run
+      away), thart the typical dwarven stout has the flavor of a nice dwarven mountain
+      home. Most non-dwarves agree on that - it tastes like earth.
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 1}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Dwarven Stout
+ModelPart1: {type: byte, value: 45}
+ModelPart2: {type: byte, value: 52}
+ModelPart3: {type: byte, value: 42}
+PaletteID: {type: byte, value: 24}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 3}
+    CostValue: {type: word, value: 1}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 15}
+    Subtype: {type: word, value: 330}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: DwarvenStout}
+TemplateResRef: {type: resref, value: dwarvenstout}

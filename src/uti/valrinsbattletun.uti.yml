@@ -1,0 +1,99 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+ArmorPart_Belt: {type: byte, value: 9}
+ArmorPart_LBicep: {type: byte, value: 9}
+ArmorPart_LFArm: {type: byte, value: 14}
+ArmorPart_LFoot: {type: byte, value: 5}
+ArmorPart_LHand: {type: byte, value: 8}
+ArmorPart_LShin: {type: byte, value: 10}
+ArmorPart_LShoul: {type: byte, value: 20}
+ArmorPart_LThigh: {type: byte, value: 16}
+ArmorPart_Neck: {type: byte, value: 3}
+ArmorPart_Pelvis: {type: byte, value: 8}
+ArmorPart_RBicep: {type: byte, value: 9}
+ArmorPart_RFArm: {type: byte, value: 14}
+ArmorPart_RFoot: {type: byte, value: 5}
+ArmorPart_RHand: {type: byte, value: 8}
+ArmorPart_RShin: {type: byte, value: 10}
+ArmorPart_RShoul: {type: byte, value: 20}
+ArmorPart_RThigh: {type: byte, value: 16}
+ArmorPart_Robe: {type: byte, value: 0}
+ArmorPart_Torso: {type: byte, value: 3}
+BaseItem: {type: int, value: 16}
+Charges: {type: byte, value: 0}
+Cloth1Color: {type: byte, value: 24}
+Cloth2Color: {type: byte, value: 40}
+Comment: {type: cexostr, value: 5-rune robe with costum design}
+Cost: {type: dword, value: 18490}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value:
+    0: |-
+      As a child, Valrin loved to listen to stories about epic battles, cruel villains and glorious heros. As youngster, he started to invent and write down such stories.
+
+      When Valrin finally became an adult, he set out into the world and joined the first party of adventurers he met. He didn't want to invent epic stories anymore; he wanted to be there and see, so he could finally write new tales about something that really had happened.
+
+      Instead of just carefully watching the actions of his party, Valrin often was drawn right into the middle of those epic battles he just wanted to write about. And to his own astounishment, Valrin proved to be quite capable of not only defending himself but also in assisting his party. By now he not only had learned how to fight but also was able to cast a few arcane spells.
+
+      So, with the help of the party's wizard, Valrin created various robes imbued with protective spells. With his spellcasting abilities becoming better over the time, Valrin refused to wear any kind of armor that would hinder him at casting spells. And eventually, the robes he created offered excellent protection, not only for himself, but also for everyone else not able or wanting to wear armor.
+Description:
+  type: cexolocstr
+  value:
+    0: ''
+Identified: {type: byte, value: 0}
+Leather1Color: {type: byte, value: 32}
+Leather2Color: {type: byte, value: 24}
+LocalizedName:
+  type: cexolocstr
+  value:
+    0: Valrin's Battle Tunic
+Metal1Color: {type: byte, value: 37}
+Metal2Color: {type: byte, value: 10}
+PaletteID: {type: byte, value: 5}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value:
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 6}
+    CostValue: {type: word, value: 1}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 22}
+    Subtype: {type: word, value: 0}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 25}
+    CostValue: {type: word, value: 5}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 52}
+    Subtype: {type: word, value: 1}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 25}
+    CostValue: {type: word, value: 5}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 52}
+    Subtype: {type: word, value: 3}
+  - !nwn-lib.elv.es,2013-07:struct
+    __struct_id: 0
+    ChanceAppear: {type: byte, value: 100}
+    CostTable: {type: byte, value: 25}
+    CostValue: {type: word, value: 5}
+    Param1: {type: byte, value: 255}
+    Param1Value: {type: byte, value: 0}
+    PropertyName: {type: word, value: 52}
+    Subtype: {type: word, value: 21}
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: ValrinsBattleTunic}
+TemplateResRef: {type: resref, value: valrinsbattletun}

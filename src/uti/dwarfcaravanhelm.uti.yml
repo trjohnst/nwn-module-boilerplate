@@ -1,0 +1,37 @@
+--- !nwn-lib.elv.es,2013-07:struct
+__data_type: UTI
+__struct_id: 4294967295
+AddCost: {type: dword, value: 0}
+BaseItem: {type: int, value: 17}
+Charges: {type: byte, value: 0}
+Cloth1Color: {type: byte, value: 52}
+Cloth2Color: {type: byte, value: 30}
+Comment: {type: cexostr, value: ''}
+Cost: {type: dword, value: 3}
+Cursed: {type: byte, value: 0}
+DescIdentified:
+  type: cexolocstr
+  value: {}
+Description:
+  type: cexolocstr
+  value: {}
+Identified: {type: byte, value: 1}
+Leather1Color: {type: byte, value: 48}
+Leather2Color: {type: byte, value: 40}
+LocalizedName:
+  type: cexolocstr
+  str_ref: 90531
+  value:
+    0: DwarfCaravanHelm
+Metal1Color: {type: byte, value: 1}
+Metal2Color: {type: byte, value: 21}
+ModelPart1: {type: byte, value: 23}
+PaletteID: {type: byte, value: 0}
+Plot: {type: byte, value: 0}
+PropertiesList:
+  type: list
+  value: []
+StackSize: {type: word, value: 1}
+Stolen: {type: byte, value: 0}
+Tag: {type: cexostr, value: DwarfCaravanHelm}
+TemplateResRef: {type: resref, value: dwarfcaravanhelm}
